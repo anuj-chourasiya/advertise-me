@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'social_django',  
     'home.apps.HomeConfig',  
     'ads',
-    'unesco',
+    
 ]
 
 # When we get to crispy forms :)
@@ -170,9 +170,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-print(os.environ.get('EMAIL_USER'))
-EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER='anujchourasiyadon@gmail.com'
+EMAIL_HOST_PASSWORD = 'vdvnodhqrlkdizuw'
 
 # Don't set default LOGIN_URL - let django.contrib.auth set it when it is loaded
 # LOGIN_URL = '/accounts/login'
