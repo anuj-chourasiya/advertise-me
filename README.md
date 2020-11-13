@@ -1,7 +1,7 @@
 # Advertise-me -Fun advertisment app
 
 This is an advertisement app build in Django and hosted on pythonanywhere.
-This app is currently deployed at Juna321.pythonanywhere.com .
+This app is currently deployed at http://juna321.pythonanywhere.com/ .
 
 ## Getting Started
 
